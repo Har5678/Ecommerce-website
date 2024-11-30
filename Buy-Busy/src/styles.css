@@ -1,0 +1,330 @@
+/* sign in form css */
+.register-form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 80px;
+}
+
+
+.register-form h1 {
+    text-align: center;
+}
+
+.register-form form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.register-form label {
+    margin-bottom: 10px;
+}
+
+.register-form input[type="email"],
+.register-form input[type="password"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 10px;
+    border: 1px solid purple;
+    border-radius: 5px;
+}
+
+.register-form input[type="submit"] {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+/* navbar css */
+
+.navbar {
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+
+}
+
+.heading1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: -300px;
+    color: #7a4cd6;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+
+}
+.link{
+    text-decoration: none;
+}
+
+
+.navbar ul li {
+    font-size: 18px;
+    margin-left: 30px;
+    color: rgb(133, 82, 210);
+}
+
+.navbar ul li:hover {
+    color: #007bff;
+    cursor: pointer;
+}
+
+/* register form css */
+
+
+.Sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    margin-top: -100px;
+}
+
+.Sign-up form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.header {
+    color: #7a4cd6;
+}
+
+.Sign-up label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.Sign-up input[type="text"],
+.Sign-up input[type="password"],
+.Sign-up input[type="email"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.Sign-up input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+/* aside section */
+
+
+aside {
+    position: fixed;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+
+    width: 250px;
+    background-color: lavender;
+}
+
+/* aside {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: #f5f5f5;
+    padding: 20px;
+    overflow-y: scroll;
+} */
+
+.filter {
+    margin-bottom: 20px;
+
+}
+
+.filter h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgb(29, 73, 29);
+}
+
+.filter p {
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.filter input[type="range"] {
+    margin-left: 40px;
+    width: 70%;
+}
+
+.filter form ul {
+    list-style: none;
+    padding: 0;
+}
+
+.filter form ul li {
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+.filter form ul li label {
+    margin-left: 5px;
+}
+
+/* css for data */
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 220px;
+}
+
+main>div {
+    width: 220px;
+    /* Adjust the width as needed */
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn1 {
+    background-color: #4a694b;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 45px;
+    cursor: pointer;
+}
+
+/* cartItem */
+
+.cartItems {
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-left: 250px;
+}
+.orderTotal{
+    position: fixed;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+    width: 200px;
+    background-color: lavender;
+    height: 100px;
+
+}
+.btn{
+    background-color: darkcyan;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    border:none;
+    border-radius: 12px;
+    font-size: 16px;
+    margin: 4px 45px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.plus {
+    width: 26px;
+    height: 26px;
+    position: relative;
+    top: -45px;
+    left: 160px;
+    mix-blend-mode: multiply;
+}
+
+.minus {
+    width: 26px;
+    height: 26px;
+    position: relative;
+    top: -45px;
+    left: 80px
+}
+
+.quantity {
+    font-size: larger;
+    position: relative;
+    top: -96px;
+    left: 142px;
+    /* border:2px solid red; */
+    width:10px;
+}
+
+.btn3 {
+    position: relative;
+    top:-95px;
+    left:50px;
+    background-color:darkcyan;
+    border-radius:10px;
+    height:35px;
+    border:none;
+}
+
+/* order css */
+
+.orderHeading{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.tableHeaders{
+    
+    width:15%;
+    background-color: rgb(234, 230, 230);
+    padding: 8px;
+}
+.tableHeader1{
+   
+    width:60%;
+    background-color: rgb(234, 230, 230);
+    padding: 5px;
+}
+.tabelData{
+    background-color: rgb(234, 230, 230);
+    text-align: center;
+    padding: 5px;
+}
+
+.tabelDataP{
+    text-align: right;
+    background-color: rgb(234, 230, 230);
+    padding: 8px;
+    
+    
+}
+
+.spinner{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;    
+    height: 100vh, 
+}
